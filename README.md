@@ -1,4 +1,6 @@
-# COASTLINE Website Documentation
+# COASTLINE Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/71560f81-64a1-4804-946c-6dd3616e0a92/deploy-status)](https://app.netlify.com/sites/coastline-preview/deploys)
+
 This is the documentation for the COASTLINE site. Yes it's actually CØASTLINE but just in case that extended character gets mangled somehwere I thought it best to exclude it from the header.
 Now, where were we?
 Oh, yes! The website.
@@ -18,4 +20,11 @@ npm install npx
 npx eleventy
 ```
 
-Then the resulting website is in `/dist/`.
+Or, for development you can have it `watch` a directory for changes.
+```
+npx eleventy --pathprefix="coastline-site/dist" --watch
+```
+
+This uses [Eleventy](https://www.11ty.io/) to turn the source files in `/src/` into a website.
+
+Then the resulting site is in `/dist/`.
