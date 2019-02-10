@@ -1,9 +1,10 @@
 # COASTLINE Website
 [![Netlify Status](https://api.netlify.com/api/v1/badges/71560f81-64a1-4804-946c-6dd3616e0a92/deploy-status)](https://app.netlify.com/sites/coastline-preview/deploys)
 
-This is the documentation for the COASTLINE site. Yes it's actually CØASTLINE but just in case that extended character gets mangled somehwere I thought it best to exclude it from the header.
+This is the documentation for the COASTLINE site. It's actually CØASTLINE but just in case that extended character gets mangled somehwere I thought it best to exclude it from the header.
 Now, where were we?
-Oh, yes! The website.
+
+Oh, yes! The website!
 
 # Requirements
 * Node v8.x
@@ -11,7 +12,7 @@ Oh, yes! The website.
 * NPM
 * Eleventy (via NPM)
 
-# Compiling static sute
+# Compiling the static site using Eleventy
 First, install Node, NPM, and NPX for your platforms, then...
 ```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 nvm use 8
