@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'aileronultralight';
+    src: url('Aileron-UltraLight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    border: none;
+    margin: 0;
+    background: #fff;
+    color: #000;
+    /*overflow: hidden;*/
+}
+
+/* Navbar  */
+
+/* Coastline Logo top left */
+.navbar-brand {
+    margin-left: 0.625em;
+    padding: 0 !important;
+    font-family: 'aileronultralight', sans-serif;
+    font-size: 2.5em;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+#main-title {
+    color: #67A58C;
+}
+
+.media-padded {
+    padding-bottom: 1em;
+}
+
+#navmain {
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    z-index:99;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24em, rgba(255,255,255,0.2) 28em, rgba(255,255,255,0.2) 75%) !important;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 24em,rgba(255,255,255,0.2) 28em,rgba(255,255,255,0.2) 75%) !important;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 24em,rgba(255,255,255,0.2) 28em,rgba(255,255,255,0.2) 75%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+}
+
+.nav-link {
+    padding: 6px;
+}
+
+#gradientblock {
+    width: 4em;
+    height: 100%;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(103,165,140,1) 50%, rgba(103,165,140,1) 100%) !important;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(103,165,140,1) 50%, rgba(103,165,140,1) 100%) !important;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(103,165,140,1) 50%, rgba(103,165,140,1) 100%) !important;
+}
+
+#navmain li {
+    float: left;
+}
+
+#navmain li a, .fakelink {
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    color: #67A58C;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Styling for the footer */
+
+#footer-list {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#footer-list a, #footer-list li{
+    color: white;
+}
+
+#footer-list a:hover {
+    background-color: transparent;
+}
+
+#footer-list ul {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+#footer-wave {
+    background-color: #67A58C;
+    height: 10%;
+}
+
+#page-footer {
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+/* The rightmost buttons */
+
+.navbar-right-btn {
+    font-family: 'aileronultralight', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 0.125em 0.125em 0.625 rgba(255, 255, 255, 0.90);
+    font-weight: 200;
+    border-radius: 0;
+    background-color: #67A58C !important;
+    color: white !important;
+    border: 0;
+}
+
+
+.navbar-sub-btn {
+    font-family: 'aileronultralight', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0.125em 0.125em 0.625 rgba(255, 255, 255, 0.90);
+    font-weight: 200;
+    border-radius: 0;
+    background-color: #568974 !important;
+    color: white !important;
+    border: 0;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+li a:hover, .fakelink:hover {
+    background-color: #fff;
+}
+
+.aileronultralight {
+    font-family: 'aileronultralight', sans-serif !important;
+}
+.lato {
+    font-family: 'Lato', sans-serif !important;
+}
+
+#videotitle {
+    position: absolute;
+    top: 72px;
+    right: 5%;
+    width: 45%;
+    color: white;
+    font-family: 'aileronultralight', sans-serif;
+    padding-top: 2em;
+}    
+#videotitle p {
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0 2px black;
+}
+#videotitle .spotify-button {
+    background-color: #1ED760;
+    color: #000;
+}
+
+#tracksubtitle {
+    width: 26em;
+}
+
+#videotitle .svgicon {
+    width: 2em;
+    height: 2em;
+}
+
+
+/* The play, pause and mute buttons. */
+
+.play-controls {
+    margin-left: 33%;
+    cursor: pointer;
+    cursor: hand;
+    color: #fff;
+}
+
+/* Social icons */
+
+.social-icons-group a {
+    color: #fff;
+}
+
+/* Set size and stroke of icons */
+
+.feather {
+    width: 2em;
+    height: 2em;
+    stroke-width: 1px;
+}
+
+
+.playerBox {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+
+/* About Container */
+
+#about-wrapper {
+    min-width: 67.5em;
+    min-height: 9.375em;
+    position: absolute;
+    left: -25%;
+    padding-left: 25%;
+    bottom: 0px;
+    height: 20%;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-right-radius: 0.938em;
+    z-index: 99;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0) 15%, rgba(0, 0, 0, .5) 23%);
+    -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%);
+    display: none;
+}
+
+#about-container {
+    padding: 1.250em;    ;
+    padding-bottom: 0;
+    overflow: auto;
+    width: auto;
+    height: 100%;
+    color: #FFF
+}
+
+.about-header {
+    font-size: 3.625em;
+    color: #ffffff;
+    font-weight: 1000;
+    text-shadow: 0px 0px 0.5em #000;
+    margin-bottom: 0px;
+}
+
+#regform {
+    padding-bottom: 1.5em;
+    width: 100%;
+}
+
+#about-container a { color: #49ffff}
+
+.about-text {
+    color: #FFF;
+    font-size: 1em;
+    text-align: justify;
+}
+
+/*Scrollbars*/
+
+#about-container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#about-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Logo and controls area */
+
+.fixed-side-column {
+    float: left;
+}
+
+/* Coastline image logo lower left */
+
+#coastline-logo {
+    margin-top: 0.625em;
+    margin-right: 0.625em;
+    margin-left: 0.938em;
+    margin-bottom: 0px;
+    width: 14.063em;
+}
+
+/* Video player customizations */
+
+.player {
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+}
+
+.player.fullscreen {
+    border-radius: 0;
+    border: 0px solid #fff;
+    box-shadow: none;
+    max-width: 0;
+    max-height: 0;
+}
+
+.mb_YTPBar {
+    position: fixed !important;
+}
+.mb_YTPBar .mb_YTPLoaded {
+    height: 0.625em;
+    width: 0;
+    background: #000;
+    left: 0;
+}
+
+.mb_YTPBar .mb_YTPProgress {
+    background: transparent;
+}
+
+.mb_YTPBar .mb_YTPseekbar {
+    height: 0.625em;
+    width: 0;
+    background: #67A58C;
+    bottom: 0;
+    left: 0;
+    box-shadow: none;
+}
+
+.buttonBar {
+    display: none;
+}
+
+/* Separate settings for smaller screens and iPads, 
+the about container moves down to the bottom of the page
+and no longer overlaps the video. */
+
+@media (max-width: 992px), /* If smaller than 992px */
+screen and (aspect-ratio: 4/3), /* Or is 4:3 ratio (iPad) */
+/* Or is an iPad Pro */
+screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { 
+
+    #navmain li a {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    
+    #navmain {
+        background: white !important;
+    }
+
+    #P1 {
+        margin-bottom: -350px;
+    }
+    #videotitle {
+        position: relative;
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 8em;
+
+    }
+    #videotitle h1 {
+        display: none;
+    }
+
+    #tracksubtitle {
+        padding-left: 5%;
+    } 
+    #about-wrapper {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 0px;
+        background-color: #444;
+        -webkit-mask-image: unset;
+        padding-left: 0;
+    }
+    #about-container {
+        width: auto;
+        height: 100%;
+    }
+    
+    #page-footer {
+        height:;
+    }
+    
+    #footer-wave {
+        height: 100px;
+    }
+    
+    #coastline-logo {
+        width: 7em;
+    }
+
+    #about-container p {
+        height: 4.5em;
+    }
+
+    #toggle-info {
+        display: none !important;
+    }
+    .mb_YTPBar {
+        position: absolute !important;
+    }
+
+
+    #about-container::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: black;
+        border-radius: 0.625em;
+    }
+    
+    #about-container::-webkit-scrollbar {
+        width: 0.625em;
+        background-color: black;
+        display: unset;
+    }
+    
+    #about-container::-webkit-scrollbar-thumb {
+        background-color: #67A58C;
+        border-radius: 0.625em;
+        background-image: -webkit-linear-gradient( 90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+    }
+}
+ 
+/* @media (min-width: 150em) {
+    body {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 150em) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 10px;
+    }
+} */
