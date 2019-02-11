@@ -4,6 +4,7 @@ bandWebsite: https://coastline941.com
 tags: band
 posterImg: bio-coastline.jpg
 date: 2019-01-29
+sitemapIgnore: true
 url_insta: https://www.instagram.com/coastline941/
 url_fb: https://www.facebook.com/pg/COASTLINE.FL/
 url_twitter:

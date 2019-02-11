@@ -4,6 +4,7 @@ bandWebsite: https://bargainbinheroes.bandcamp.com/
 tags: band
 posterImg: bio-bargain_bin_heroes.jpg
 date: 2019-01-30
+sitemapIgnore: true
 url_insta: 
 url_fb: https://www.facebook.com/bargainbinheroes
 url_twitter:
