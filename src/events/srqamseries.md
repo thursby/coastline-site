@@ -144,6 +144,9 @@ Use the hashtag **#SRQAm** so we can check out your posts from the event.
 
 <p>Like, share, and follow the event on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
 
+## Contact Us
+Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime at our Facebook above or email us at: <ahref="mailto:&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;">&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;</a>
+
 ## Band Lineup
 Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let us know if your band should be on the list!
 
@@ -169,7 +172,7 @@ Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let 
 </div>
 </a>
 
-Parking is available off Greenwood Avenue across from the skate park.
+**Parking is available off Greenwood Avenue across from the skate park.**
 
 
 {% endif %}
