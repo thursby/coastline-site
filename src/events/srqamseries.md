@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 <div id="content-wrapper" style="padding-left: 1em; padding-right: 1em;">
 <div style="padding-top:80px;">
 
-<img src="{{ '/img/srqamseries_logo-md.png' | url }}" class="img-fluid mx-auto d-block" alt="Responsive image">
-
+<img src="{{ '/img/srqamseries_logo-md.png' | url }}" class="img-fluid mx-auto d-block" alt="SRQ Am Series logo">
+<h4 class="aileronultralight text-center">brought to you by Office Outfitters</h4>
 <h5 class="aileronultralight text-center">March 30, 2019 - City of North Port Skate Park</h5>
 
 #### Get Spring started with an all-day Skate and BMX Competition and full line up Music Festival.
