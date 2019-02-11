@@ -172,7 +172,7 @@ Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let 
 </div>
 </a>
 
-**Parking is available off Greenwood Avenue across from the skate park.**
+**Parking is available off Greenwood Avenue across from the Skate Park.**
 
 
 {% endif %}
