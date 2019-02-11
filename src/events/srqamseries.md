@@ -149,24 +149,29 @@ Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let 
 
 {% include srqamseries_registration.liquid %}
 
+{% if location_name %}
 
 ## Location
+<a href="{{ location_url }}" target="_blank">
+
 <div class="row">
 <div class="col">
-{% if location_name %}
-<a href="{{ location_url }}" target="_blank">
 {{ location_name }}<br>
 {{ location_street }}<br>
 {{ location_city }}, {{ location_state }} {{ location_zip }}<br>
 </div>
 <div class="col-4">
 <img src="{{ '/img/map-npsp.png' | url }}" class="img-fluid" alt="Responsive image">
+
+</div>
+
+
+</div>
 </a>
 
-Parking available off Greenwood Ave across from the skate park.
+Parking is available off Greenwood Avenue across from the skate park.
 
-</div>
-</div>
+
 {% endif %}
 
 </div>
