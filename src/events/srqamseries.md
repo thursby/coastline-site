@@ -162,6 +162,9 @@ Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let 
 <div class="col-4">
 <img src="{{ '/img/map-npsp.png' | url }}" class="img-fluid" alt="Responsive image">
 </a>
+
+Parking available off Greenwood Ave across from the skate park.
+
 </div>
 </div>
 {% endif %}
@@ -175,7 +178,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 
 
 * **8am-11am** - Registration / Open Skate Warmups
-* **11:00am** - Comp Starts -- Beginner Skate
+* **11:00am** - Comp Starts / Beginner Skate
 * **11:30am** - 1st Band Starts
 * **12:00pm** - Intermediate Skate
 * **12:30pm** - 2nd Band Starts
