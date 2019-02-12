@@ -1,64 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/assets/styles/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+
+
   <url>
-    <loc>https://coastline-site/dist/bands/bio-your_band/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_bands/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
 
 
   <url>
-    <loc>https://coastline-site/dist/bands/bio-coastline/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/events/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
 
 
   <url>
-    <loc>https://coastline-site/dist/bands/bio-bargain_bin_heroes/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/srqamseries_checkout/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
 
 
   <url>
-    <loc>https://coastline-site/dist/bands/bio-perfect_sequence/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/presskit/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
 
 
   <url>
-    <loc>https://coastline-site/dist/bands/bio-liquid_pennies/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-
-  <url>
-    <loc>https://coastline-site/dist/events/srqamseries_registration/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-
-  <url>
-    <loc>https://coastline-site/dist/events/srqamseries_bands/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-
-  <url>
-    <loc>https://coastline-site/dist/events/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-
-  <url>
-    <loc>https://coastline-site/dist/srqamseries_checkout/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -66,21 +42,15 @@
 
 
   <url>
-    <loc>https://coastline-site/dist/presskit/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_registration/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
 
 
-  <url>
-    <loc>https://coastline-site/dist/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
 
   <url>
-    <loc>https://coastline-site/dist/events/srqamseries/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -13,9 +13,19 @@ h1, h2, h3, h4, h5, h6 {
 <h1 class="aileronultralight">
 <b>SRQ Am Series 2019 Registration</b></h1>
 
-Get registered here! Make sure to print out and sign [the waiver](#)!
+Get registered here!
+
+### **Make sure to print out and sign <a href="{{ '/img/srqamseries_waiver.pdf'| url }}" target="_blank">the waiver</a>!**
 
 Exceptional people can even send their completed waivers to <a href="mailto:&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;">&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;</a> and will ~~help make the world a better place~~ let us get back to the skatepark faster.
+
+<div class="alert alert-danger" role="alert">
+
+A parent's signature is required on the waiver for any registrant under 18. Parents must be present at the time of competition for any registrant under age 14.
+
+HELMETS ARE REQUIRED FOR ALL PARTICIPANTS IN THIS COMPETITION
+
+</div>
 
 <div class="row">
   <div class="col-sm-6">

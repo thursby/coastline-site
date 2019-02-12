@@ -4,6 +4,7 @@ bandWebsite: http://facebook.com/perfectsequence
 tags: band
 posterImg: bio-perfect_sequence.jpg
 date: 2019-01-30
+sitemapIgnore: true
 url_insta: https://www.instagram.com/perfectsequencemusic/
 url_fb: http://facebook.com/perfectsequence
 url_twitter:

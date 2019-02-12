@@ -12,6 +12,14 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5VBSSRQ');</script>
+  <!-- End Google Tag Manager -->
+
   <link rel="stylesheet" href="/coastline-site/dist/css/normalize.css">
   <link rel="stylesheet" href="/coastline-site/dist/css/main.css">
 
@@ -25,9 +33,22 @@
   
   <script src="/coastline-site/dist/js/feather-icons.js"></script>
   <script src="/coastline-site/dist/js/jquery-3.2.1.min.js"></script>
+  <script>
+  var trackOutboundLink = function(url) {
+     ga('send', 'event', 'outbound', 'click', url, {
+       'transport': 'beacon',
+       'hitCallback': function(){document.location = url;}
+     });
+  }
+  </script>
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VBSSRQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!--[if lte IE 9]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -183,6 +204,8 @@ h1, h2, h3, h4, h5, h6 {
 <h2>#SocialMedia</h2>
 <p>Use the hashtag <strong>#SRQAm</strong> so we can check out your posts from the event.</p>
 <p>Like, share, and follow the event on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
+<h2>Contact Us</h2>
+<p>Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime at our Facebook above or email us at: <a href="mailto:&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;">srqam@coastline941.com</a></p>
 <h2>Band Lineup</h2>
 <p>Check out the <a href="/coastline-site/dist/events/srqamseries_bands/">SRQ Am Lineup</a> and let us know if your band should be on the list!</p>
 <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" style="width: 100%; margin-bottom: 12px">
@@ -218,39 +241,39 @@ h1, h2, h3, h4, h5, h6 {
   </div>
 </form>
 <h2>Location</h2>
+<a href="https://www.google.com/maps/place/North+Port+Skatepark/@27.0471319,-82.237207,17z/data=!3m1!4b1!4m5!3m4!1s0x88c354a22112d131:0x614bdc6898f80b16!8m2!3d27.0471319!4d-82.2350183" target="_blank">
 <div class="row">
 <div class="col">
-<a href="https://www.google.com/maps/place/North+Port+Skatepark/@27.0471319,-82.237207,17z/data=!3m1!4b1!4m5!3m4!1s0x88c354a22112d131:0x614bdc6898f80b16!8m2!3d27.0471319!4d-82.2350183" target="_blank">
 City of North Port Skate Park<br>
 5651 North Port Boulevard<br>
 North Port, Florida 34287<br>
 </div>
 <div class="col-4">
 <img src="/coastline-site/dist/img/map-npsp.png" class="img-fluid" alt="Responsive image">
+</div>
+</div>
 </a>
-</div>
-</div>
+<p><strong>Parking is available off Greenwood Avenue across from the Skate Park.</strong></p>
 </div>
 <div id="schedule" class="col-xl">
 <h2>Schedule</h2>
 <p>We will try to stay on schedule as much as possible, but of course these times are all approximate. Start times can vary based on the number of participants, so make sure to arrive early for your group.</p>
 <ul>
 <li><strong>8am-11am</strong> - Registration / Open Skate Warmups</li>
-<li><strong>11:00am</strong> - Comp Starts -- Beginner Skate</li>
-<li><strong>11:30am</strong> - First Band Starts</li>
+<li><strong>11:00am</strong> - Comp Starts / Beginner Skate</li>
+<li><strong>11:30am</strong> - 1st Band Starts</li>
 <li><strong>12:00pm</strong> - Intermediate Skate</li>
-<li><strong>12:30pm</strong> - Second Band Starts</li>
+<li><strong>12:30pm</strong> - 2nd Band Starts</li>
 <li><strong>1:00pm</strong> - Advanced Skate</li>
-<li><strong>1:30pm</strong> - Lunch Break / Skate Awards</li>
-<li><strong>1:30pm</strong> - Pro Skate Board Show Off</li>
+<li><strong>1:30pm</strong> - 3rd Band Starts</li>
 <li><strong>2:00pm</strong> - Beginner BMX</li>
 <li><strong>2:30pm</strong> - 4th Band Starts</li>
 <li><strong>3:00pm</strong> - Intermediate BMX</li>
 <li><strong>3:30pm</strong> - 5th Band Starts</li>
 <li><strong>4:00pm</strong> - Advanced BMX</li>
 <li><strong>4:30pm</strong> - 6th Band Starts</li>
-<li><strong>5:00pm</strong> - Pro BMX Show Off</li>
-<li><strong>5:30pm</strong> - BMX and Best of the Day Awards Ceremony</li>
+<li><strong>5:00pm</strong> - Pro Skate and BMX Show Off</li>
+<li><strong>5:30pm</strong> - Skateboard, BMX and Best of the Day Awards Ceremony</li>
 <li><strong>6:00pm</strong> - 7th Band Starts</li>
 <li><strong>6:45pm</strong> - 8th Band Starts</li>
 <li><strong>7:30pm</strong> - 9th Band Starts</li>
@@ -290,15 +313,6 @@ North Port, Florida 34287<br>
 <script>
     // replace icons using Feather
     feather.replace()
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124851806-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124851806-1');
 </script>
 
 </body>

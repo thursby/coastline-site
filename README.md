@@ -37,3 +37,5 @@ For development you can have it "watch" a directory for changes.
 npx eleventy --pathprefix="coastline-site/dist" --watch
 ```
 
+## Updates
+Added the [SRQ Am Series](https://coastline941.com/events/srqamseries/) page!

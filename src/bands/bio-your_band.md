@@ -2,6 +2,7 @@
 bandName: Your Band
 bandWebsite: 
 tags: band
+sitemapIgnore: true
 posterImg: bio-your_band.jpg
 date: 2019-01-01
 ---
