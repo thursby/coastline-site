@@ -144,26 +144,37 @@ Use the hashtag **#SRQAm** so we can check out your posts from the event.
 
 <p>Like, share, and follow the event on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
 
+## Contact Us
+Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime at our Facebook above or email us at: <a href="mailto:&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;">&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;</a>
+
 ## Band Lineup
 Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let us know if your band should be on the list!
 
 {% include srqamseries_registration.liquid %}
 
+{% if location_name %}
 
 ## Location
+<a href="{{ location_url }}" target="_blank">
+
 <div class="row">
 <div class="col">
-{% if location_name %}
-<a href="{{ location_url }}" target="_blank">
 {{ location_name }}<br>
 {{ location_street }}<br>
 {{ location_city }}, {{ location_state }} {{ location_zip }}<br>
 </div>
 <div class="col-4">
 <img src="{{ '/img/map-npsp.png' | url }}" class="img-fluid" alt="Responsive image">
+
+</div>
+
+
+</div>
 </a>
-</div>
-</div>
+
+**Parking is available off Greenwood Avenue across from the Skate Park.**
+
+
 {% endif %}
 
 </div>
@@ -187,7 +198,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 * **3:30pm** - 5th Band Starts
 * **4:00pm** - Advanced BMX
 * **4:30pm** - 6th Band Starts
-* **5:00pm** - Pro BMX Show Off
+* **5:00pm** - Pro Skateboard and BMX Show Off Session
 * **5:30pm** - Skateboard, BMX and Best of the Day Awards Ceremony
 * **6:00pm** - 7th Band Starts
 * **6:45pm** - 8th Band Starts

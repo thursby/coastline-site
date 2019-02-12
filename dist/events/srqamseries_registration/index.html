@@ -12,6 +12,14 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5VBSSRQ');</script>
+  <!-- End Google Tag Manager -->
+
   <link rel="stylesheet" href="/coastline-site/dist/css/normalize.css">
   <link rel="stylesheet" href="/coastline-site/dist/css/main.css">
 
@@ -25,9 +33,22 @@
   
   <script src="/coastline-site/dist/js/feather-icons.js"></script>
   <script src="/coastline-site/dist/js/jquery-3.2.1.min.js"></script>
+  <script>
+  var trackOutboundLink = function(url) {
+     ga('send', 'event', 'outbound', 'click', url, {
+       'transport': 'beacon',
+       'hitCallback': function(){document.location = url;}
+     });
+  }
+  </script>
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VBSSRQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!--[if lte IE 9]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -96,8 +117,13 @@ h1, h2, h3, h4, h5, h6 {
 <div style="padding-top:80px;">
 <h1 class="aileronultralight">
 <b>SRQ Am Series 2019 Registration</b></h1>
-<p>Get registered here! Make sure to print out and sign <a href="#">the waiver</a>!</p>
+<p>Get registered here!</p>
+<h3><strong>Make sure to print out and sign <a href="/coastline-site/dist/img/srqamseries_waiver.pdf" target="_blank">the waiver</a>!</strong></h3>
 <p>Exceptional people can even send their completed waivers to <a href="mailto:&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;">srqam@coastline941.com</a> and will <s>help make the world a better place</s> let us get back to the skatepark faster.</p>
+<div class="alert alert-danger" role="alert">
+<p>A parent's signature is required on the waiver for any registrant under 18. Parents must be present at the time of competition for any registrant under age 14.</p>
+<p>HELMETS ARE REQUIRED FOR ALL PARTICIPANTS IN THIS COMPETITION</p>
+</div>
 <div class="row">
   <div class="col-sm-6">
     <div class="card">
@@ -159,15 +185,6 @@ h1, h2, h3, h4, h5, h6 {
 <script>
     // replace icons using Feather
     feather.replace()
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124851806-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124851806-1');
 </script>
 
 </body>

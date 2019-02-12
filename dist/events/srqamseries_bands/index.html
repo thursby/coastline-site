@@ -12,6 +12,14 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5VBSSRQ');</script>
+  <!-- End Google Tag Manager -->
+
   <link rel="stylesheet" href="/coastline-site/dist/css/normalize.css">
   <link rel="stylesheet" href="/coastline-site/dist/css/main.css">
 
@@ -25,9 +33,22 @@
   
   <script src="/coastline-site/dist/js/feather-icons.js"></script>
   <script src="/coastline-site/dist/js/jquery-3.2.1.min.js"></script>
+  <script>
+  var trackOutboundLink = function(url) {
+     ga('send', 'event', 'outbound', 'click', url, {
+       'transport': 'beacon',
+       'hitCallback': function(){document.location = url;}
+     });
+  }
+  </script>
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VBSSRQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!--[if lte IE 9]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -236,23 +257,28 @@ latest video <a href="https://www.youtube.com/watch?v=kWukKTo9zAY">Us &amp; Grav
     </div>
   </div><div class="row">
     <div class="col-md-3">
-      <img class="img-fluid" src="/coastline-site/dist/img/bio-liquid_pennies.jpg" alt="Liquid Pennies Band Photo">
+      <img class="img-fluid" src="/coastline-site/dist/img/bio-offset_era.jpg" alt="Offset Era Band Photo">
     </div>
     <div class="col-md-9">
       <div class="row align-items-center">
         
-        <a class="bandname" href="https://liquidpennies.bandcamp.com" target="_blank">Liquid Pennies</a>
+        <a class="bandname" href="https://www.facebook.com/Offsetera/" target="_blank">Offset Era</a>
                
         
         
+        <a href="https://www.instagram.com/offsetera/" target="_blank"><i data-feather="instagram" data-feather-height="32"></i></a>
         
-        <a href="https://www.facebook.com/LiquidPennies/" target="_blank"><i data-feather="facebook" data-feather-height="32"></i></a>
+        
+        <a href="https://www.facebook.com/Offsetera/" target="_blank"><i data-feather="facebook" data-feather-height="32"></i></a>
         
         
         
       </div>
       <div class="row">
-        <p><strong>Liquid Pennies</strong> is a Psychedelic / Interstellar rock band from St. Pete, Florida.</p>
+        <p><strong>Offset Era</strong> formed in August of 2014 and recently released their neweset EP -
+<a href="https://distrokid.com/hyperfollow/offsetera/godp">New Blood</a>. The group tours the
+Southwest Florida area, and continues to write and record new material. The band's
+sound is a mix of pop punk, ska, hip hop and alternative.</p>
 
       </div>
     </div>
@@ -287,15 +313,6 @@ latest video <a href="https://www.youtube.com/watch?v=kWukKTo9zAY">Us &amp; Grav
 <script>
     // replace icons using Feather
     feather.replace()
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124851806-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124851806-1');
 </script>
 
 </body>
