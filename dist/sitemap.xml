@@ -5,29 +5,10 @@
 
 
 
-  <url>
-    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_bands/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
 
 
   <url>
     <loc>https://coastline941.com/coastline-site/dist/events/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-
-  <url>
-    <loc>https://coastline941.com/coastline-site/dist/srqamseries_checkout/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-
-  <url>
-    <loc>https://coastline941.com/coastline-site/dist/presskit/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -40,13 +21,33 @@
   </url>
 
 
+  <url>
+    <loc>https://coastline941.com/coastline-site/dist/presskit/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+
+  <url>
+    <loc>https://coastline941.com/coastline-site/dist/srqamseries_checkout/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
+  <url>
+    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_bands/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 
   <url>
     <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_registration/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
-
 
 
   <url>
