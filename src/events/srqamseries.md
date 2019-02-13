@@ -187,7 +187,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 
 * **8am-11am** - Registration / Open Skate Warmups
 * **11:00am** - Comp Starts -- Beginner Skate
-* **11:30am** - 1st Band Starts
+* **11:30am** - JawKnee Music Starts
 * **12:00pm** - Intermediate Skate
 * **12:30pm** - 2nd Band Starts
 * **1:00pm** - Advanced Skate
@@ -197,12 +197,12 @@ We will try to stay on schedule as much as possible, but of course these times a
 * **3:00pm** - Intermediate BMX
 * **3:30pm** - 5th Band Starts
 * **4:00pm** - Advanced BMX
-* **4:30pm** - 6th Band Starts
+* **4:30pm** - Bargain Bin Hero's Starts
 * **5:00pm** - Pro Skateboard and BMX Show Off Session
 * **5:30pm** - Skateboard, BMX and Best of the Day Awards Ceremony
-* **6:00pm** - 7th Band Starts
-* **6:45pm** - 8th Band Starts
-* **7:30pm** - 9th Band Starts
+* **6:00pm** - CØASTLINE Starts
+* **6:45pm** - Offset Era Starts
+* **7:30pm** - Perfect Sequence Starts
 * **8:15pm** - 10th Band Starts
 
 </div>
