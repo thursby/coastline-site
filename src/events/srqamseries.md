@@ -197,7 +197,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 * **3:00pm** - Intermediate BMX
 * **3:30pm** - 5th Band Starts
 * **4:00pm** - Advanced BMX
-* **4:30pm** - Bargain Bin Hero's Starts
+* **4:30pm** - Bargain Bin Heroes Starts
 * **5:00pm** - Pro Skateboard and BMX Show Off Session
 * **5:30pm** - Skateboard, BMX and Best of the Day Awards Ceremony
 * **6:00pm** - CØASTLINE Starts
