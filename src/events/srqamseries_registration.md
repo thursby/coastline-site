@@ -30,8 +30,8 @@ HELMETS ARE REQUIRED FOR ALL PARTICIPANTS IN THIS COMPETITION
 <div class="row">
   <div class="col-sm-6">
     <div class="card">
+      <img class="card-img" src="{{ '/img/registration-skate.jpg' | url }}" alt="Skateboard Registration">
       <div class="card-body">
-        <h5 class="card-title">Skate</h5>
 
 We're looking for up to 12 riders in each of 3 categories.
 * 2 Runs Each
@@ -46,8 +46,8 @@ Each session will be judged by our most excellent panel of judgy folks.
   </div>
   <div class="col-sm-6">
     <div class="card">
+      <img class="card-img" src="{{ '/img/registration-bmx.jpg' | url }}" alt="BMX Registration">
       <div class="card-body">
-        <h5 class="card-title">BMX</h5>
 
 For BMX we're also looking for up to 12 riders in each of 3 categories.
 * 2 Runs Each
