@@ -151,7 +151,7 @@ Spectator Entry Fee - $5
 <div class="col-md">
 
 ## #SocialMedia
-Use the hashtag **#SRQAm** so we can check out your posts from the event.
+Make sure to use the hashtag **#SRQAmFest** so we can check out your posts from the event.
 
 <p>Like, share, and follow the event on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
 
