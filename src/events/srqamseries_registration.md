@@ -17,7 +17,7 @@ Get registered here!
 
 ### **Make sure to print out and sign <a href="{{ '/img/srqamseries_waiver.pdf'| url }}" target="_blank">the waiver</a>!**
 
-Exceptional people can even send their completed waivers to <a href="mailto:&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;">&#115;&#114;&#113;&#97;&#109;&#64;&#99;&#111;&#97;&#115;&#116;&#108;&#105;&#110;&#101;&#57;&#52;&#49;&#46;&#99;&#111;&#109;</a> and will ~~help make the world a better place~~ let us get back to the skatepark faster.
+<p>Exceptional people can even send their completed waivers to <a href="mailto:{{ 'waiver@srqamfest.com' | enunicode }}">{{ 'waiver@srqamfest.com' | enunicode }}</a> and will <strike>help make the world a better place</strike> let us get back to the skatepark faster.</p>
 
 <div class="alert alert-danger" role="alert">
 

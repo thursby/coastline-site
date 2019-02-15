@@ -13,6 +13,22 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/404.html");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   
+  // do convert string to unicode entities, for email obfuscation
+  eleventyConfig.addFilter("enunicode", function(value) {
+    let newStr = "";
+		// get string (convert to lowercase)
+		let s = value.toLowerCase();
+  	// find length of string
+		let strLen = s.length;
+		let i = 0;
+    // loop through characters from last to first
+    for (i = strLen - 1; i > -1; i--) {
+      // build new string
+      newStr = "&#" + s.charCodeAt(i) + ";" + newStr;
+    }
+    return newStr;
+  });
+  
   // Custom config settings
   return {
     passthroughFileCopy: true,
