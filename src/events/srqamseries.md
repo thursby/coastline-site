@@ -154,10 +154,10 @@ $4 in advance - $5 at the door
 ## #SocialMedia
 Make sure to use the hashtag **#SRQAmFest** so we can check out your posts from the event.
 
-<p>Like, share, and follow the event on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
+<p>Like, share, and follow the event on <a class="text-nowrap" href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
 
 ## Contact Us
-Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> or email us at: <a href="mailto:{{ 'staff@srqamfest.com' | enunicode }}">{{ 'staff@srqamfest.com' | enunicode }}</a>
+Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime on <a class="text-nowrap" href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> or email us at: <a href="mailto:{{ 'staff@srqamfest.com' | enunicode }}">{{ 'staff@srqamfest.com' | enunicode }}</a>
 
 ## Band Lineup
 Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let us know if your band should be on the list!
