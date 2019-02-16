@@ -1,0 +1,68 @@
+---
+layout: page-nav.liquid
+title: CØASTLiNE - SRQ Am Series and Music Festival Staff
+---
+<style>
+.quotation-mark {
+    margin-left: 70%;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size:100px;
+    color: #cccccc;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.quote-text {
+    font-size: 14pt;
+    margin-top: -120px;
+}
+
+</style>
+
+<div id="content-wrapper">
+<div style="padding-top:80px;">
+
+<div class="container">
+<h1 class="aileronultralight">GRACiOUS&#8203;<b>STAFF</b></h1>
+  <div class="row">
+{%- for staff in collections.srqamseries_staff -%}
+    <div class="col-md-4">
+    
+    <div class="card border-light" style="width: 18rem;">
+      <img class="card-img-top rounded-circle" src="{{ '/img/' | append: staff.data.img | url }}" alt="{{ staff.data.name }} staff Photo">
+      <div class="card-body">
+        {% if staff.data.url_website %}
+        <a href="{{ staff.data.url_website }}" target="_blank"><h5 class="card-title" style="display: inline;">{{ staff.data.name }}</h5></a>
+        {% else %}
+        <h5 class="card-title" style="display: inline;">{{ staff.data.name }}</h5>
+        {% endif %}       
+        
+        {% if staff.data.url_insta %}
+        <a href="{{ staff.data.url_insta }}" target="_blank"><i data-feather="instagram" data-feather-height="32"></i></a>
+        {% endif %}
+        {% if staff.data.url_fb %}
+        <a href="{{ staff.data.url_fb }}" target="_blank"><i data-feather="facebook" data-feather-height="32"></i></a>
+        {% endif %}
+        {% if staff.data.url_twitter %}
+        <a href="{{ staff.data.url_twitter }}" target="_blank"><i data-feather="twitter" data-feather-height="32"></i></a>
+        {% endif %}
+        {% if staff.data.url_youtube %}
+        <a href="{{ staff.data.url_youtube }}" target="_blank"><i data-feather="youtube" data-feather-height="32"></i></a>
+        {% endif %}
+
+        <h6>{{ staff.data.job }}</h6>
+        <p class="quotation-mark">“</p>
+        {{ staff.templateContent }}
+      </div>
+    </div>
+    {% assign val = forloop.index | modulo: 3 %}
+    {% if val == 0 %}
+    </div><div class="col-md-4">
+    {% endif %}
+    </div>
+{%- endfor -%}
+  </div>
+
+</div>
+</div>
+</div>
