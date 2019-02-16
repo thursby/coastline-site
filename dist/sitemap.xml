@@ -36,6 +36,14 @@
   </url>
 
 
+
+  <url>
+    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_registration/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+
   <url>
     <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_bands/</loc>
     <changefreq>weekly</changefreq>
@@ -43,9 +51,8 @@
   </url>
 
 
-
   <url>
-    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_registration/</loc>
+    <loc>https://coastline941.com/coastline-site/dist/events/srqamseries_sponsors/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

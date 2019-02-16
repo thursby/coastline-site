@@ -25,6 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'aileronultralight', sans-serif;
 }
 
+.center-cropped {
+  height: 135px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 #schedule li {
     list-style: none;
 }
@@ -101,28 +107,30 @@ h1, h2, h3, h4, h5, h6 {
 <div class="row">
 <div class="col-md">
 
-## Advance Prices
+## Registration and Tickets
 
 <div class="container-fluid">
 <div class="row">
 <div class="col-md">
 
-Participant Early Registration - $12
+Participant Registration:<br>
+$12 in advance - $14 at the door
 
 </div>
-<div class="col-md-4">
-<a class="btn btn-primary" href="{{ '/events/srqamseries_registration/' | url }}">Registration</a>
+<div class="col-md-5">
+<a class="btn btn-primary btn-lg btn-block" href="{{ '/events/srqamseries_registration/' | url }}">Registration</a>
 </div>
 </div>
 
 <div class="row">
 <div class="col-md">
 
-Spectator Entry Fee - $4
+General Admission:<br>
+$4 in advance - $5 at the door
 
 </div>
-<div class="col-md-4">
-<a class="btn btn-primary" href="https://coastline-band-llc.weebly.com/product/pre-sale-general-admission-tickets/1" target="_blank">Spectator</a> 
+<div class="col-md-5">
+<a class="btn btn-primary btn-lg btn-block" href="https://coastline-band-llc.weebly.com/product/pre-sale-general-admission-tickets/1" target="_blank">Spectator</a> 
 </div>
 </div>
 <div class="row">
@@ -135,13 +143,6 @@ Spectator Entry Fee - $4
 </div>
 
 </div>
-
-## At The Door Prices
-Participant Registration - $15
-
-Spectator Entry Fee - $5
-
-**Ages 10 and under still get in Free with accompanying adult!**
 
 **PLEASE NOTE:** All General Admission purchases are final and can only be refunded within 15 days of the event. 
 
@@ -156,37 +157,12 @@ Make sure to use the hashtag **#SRQAmFest** so we can check out your posts from 
 <p>Like, share, and follow the event on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> and stay tuned to the <a href="https://www.facebook.com/SrqAmFest/" target="_blank">SRQ Am Fest</a> page for updates.</p>
 
 ## Contact Us
-Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime at our Facebook above or email us at: <a href="mailto:{{ 'staff@srqamfest.com' | enunicode }}">{{ 'staff@srqamfest.com' | enunicode }}</a>
+Are you interested in sponsoring the event or just looking to get more information? Please reach out to us anytime on <a href="https://www.facebook.com/events/743260372720834/" target="_blank"><i class="minicon" data-feather="facebook"></i>acebook</a> or email us at: <a href="mailto:{{ 'staff@srqamfest.com' | enunicode }}">{{ 'staff@srqamfest.com' | enunicode }}</a>
 
 ## Band Lineup
 Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let us know if your band should be on the list!
 
 {% include srqamseries_registration.liquid %}
-
-{% if location_name %}
-
-## Location
-<a href="{{ location_url }}" target="_blank">
-
-<div class="row">
-<div class="col">
-{{ location_name }}<br>
-{{ location_street }}<br>
-{{ location_city }}, {{ location_state }} {{ location_zip }}<br>
-</div>
-<div class="col-4">
-<img src="{{ '/img/map-npsp.png' | url }}" class="img-fluid" alt="Responsive image">
-
-</div>
-
-
-</div>
-</a>
-
-**Parking is available off Greenwood Avenue across from the Skate Park.**
-
-
-{% endif %}
 
 </div>
 <div id="schedule" class="col-xl">
@@ -194,7 +170,6 @@ Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let 
 ## Schedule
 
 We will try to stay on schedule as much as possible, but of course these times are all approximate. Start times can vary based on the number of participants, so make sure to arrive early for your group.
-
 
 * **8am-11am** - Registration / Open Skate Warmups
 * **11:00am** - Comp Starts -- Beginner Skate
@@ -219,6 +194,43 @@ We will try to stay on schedule as much as possible, but of course these times a
 </div>
 </div>
 
+<div class="row text-md-center">
+<div class="col">
+<h2>Location</h2>
+</div>
+</div>
+<div class="row text-md-center">
+<div class="col">
+<a href="{{ location_url }}" target="_blank">
+{{ location_name }}<br>
+{{ location_street }}<br>
+{{ location_city }}, {{ location_state }} {{ location_zip }}<br>
+</a>
+
+*Parking is available off Greenwood Avenue across from the Skate Park.*
+
+</div>
+</div>
+<div class="row text-center">
+<div class="col">
+<a href="{{ location_url }}" target="_blank">
+
+<div class="center-cropped" 
+     style="background-image: url('{{ '/img/map-npsp.png' | url }}');">
+</div>
+
+</a>
+
+</div> <!-- col -->
+
+</div> <!-- row -->
+
+</div>  <!-- container -->
+
+
+</div>
+
+</div>
 
 </div>
 
