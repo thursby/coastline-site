@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 <h1 class="aileronultralight">
 <b>SRQ Am Series 2019 Registration</b></h1>
 
-Get registered here!
+Get registered here! Registration slots are available at a First Come, First Serve Basis. 
 
 ### **Make sure to print out and sign <a href="{{ '/img/srqamseries_waiver.pdf'| url }}" target="_blank">the waiver</a>!**
 
@@ -33,9 +33,20 @@ HELMETS ARE REQUIRED FOR ALL PARTICIPANTS IN THIS COMPETITION
       <img class="card-img" src="{{ '/img/registration-skate.jpg' | url }}" alt="Skateboard Registration">
       <div class="card-body">
 
-We're looking for up to 12 riders in each of 3 categories.
-* 2 Runs Each
-* 45 Seconds Per Run
+We currently have spots for each of the following categories:
+* 12 slots for Beginner
+* 12 slots for Intermediate
+* 12 slots for Advanced
+
+You will be judged based on 5 separate categories:
+
+* **Technical Difficulty** - 1 to 5 Points
+* **Overall Style** - 1 to 5 Points
+* **Execution of Tricks** - 1 to 5 Points
+* **Creativity** - 1 to 5 Points
+* **Number of Tricks Landed Successfully** - 1 to 5 Points
+
+Each rider will get 2 runs at a length of 45 seconds per run. You will be rated based on your **combined** total score for both runs. 
 
 Each session will be judged by our most excellent panel of judgy folks.
 
@@ -49,9 +60,20 @@ Each session will be judged by our most excellent panel of judgy folks.
       <img class="card-img" src="{{ '/img/registration-bmx.jpg' | url }}" alt="BMX Registration">
       <div class="card-body">
 
-For BMX we're also looking for up to 12 riders in each of 3 categories.
-* 2 Runs Each
-* 45 Seconds Per Run
+We currently have spots for each of the following categories:
+* 12 slots for Beginner
+* 12 slots for Intermediate
+* 12 slots for Advanced
+
+You will be judged based on 5 separate categories:
+
+* **Technical Difficulty** - 1 to 5 Points
+* **Overall Style** - 1 to 5 Points
+* **Execution of Tricks** - 1 to 5 Points
+* **Creativity** - 1 to 5 Points
+* **Number of Tricks Landed Successfully** - 1 to 5 Points
+
+Each rider will get 2 runs at a length of 45 seconds per run. You will be rated based on your **combined** total score for both runs. 
 
 Each session will be judged by our most excellent panel of judgy folks.
 
