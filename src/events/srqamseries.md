@@ -31,6 +31,20 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
 }
 
+.hero-container{
+  padding-top: 80px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.hero-img{
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+  max-width: 200vw;
+}
+
 #schedule li {
     list-style: none;
 }
@@ -42,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #subtitle_location {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 3rem; 
 }
 
@@ -92,12 +106,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 </script>
 
+<div class="hero-container">
+<img src="{{ '/img/srqamseries-hero.jpg' | url }}" class="hero-img d-block" alt="SRQ Am Series logo">
+</div>
 
 <div id="content-wrapper" style="padding-left: 1em; padding-right: 1em;">
-<div style="padding-top:80px;">
+<div>
 
-<img src="{{ '/img/srqamseries_logo-md.png' | url }}" class="img-fluid mx-auto d-block" alt="SRQ Am Series logo">
-<p id="subtitle" class="aileronultralight text-center">brought to you by Office Outfitters</p>
+
+<!--<div class="jumbotron" style="background-image: url({{ '/img/srqamseries-hero.jpg' | url }}); background-size: 100%;">-->
+<!--   <div class="container for-about">-->
+<!--   <h1>#SRQAmFest</h1>-->
+<!--   </div>-->
+<!--</div>-->
+
+<!--<p id="subtitle" class="aileronultralight text-center">brought to you by Office Outfitters</p>-->
 <p id="subtitle_location" class="aileronultralight text-center">March 30, 2019 - City of North Port Skate Park</p>
 
 #### Get Spring started with an all-day Skate and BMX Competition and full line up Music Festival.
