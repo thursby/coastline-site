@@ -76,9 +76,7 @@ body {
 /* Styling for the footer */
 
 #footer-list {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    margin-top: -4rem;
 }
 
 #footer-list a, #footer-list li{
@@ -103,8 +101,8 @@ body {
 
 #page-footer {
     background-color: #fff;
-    position: absolute;
-    right: 0;
+    /*position: fixed;*/
+    bottom: 0;
     width: 100%;
 }
 
@@ -159,12 +157,20 @@ li a:hover, .fakelink:hover {
     width: 45%;
     color: white;
     font-family: 'aileronultralight', sans-serif;
-    padding-top: 2em;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 6px;
+    margin-left: 55%;
 }    
 #videotitle p {
     font-family: 'Lato', sans-serif;
-    text-shadow: 0 0 2px black;
 }
+#videotitle a {
+    color: rgb(164, 255, 219);
+    font-weight: bold;
+}
+
 #videotitle .spotify-button {
     background-color: #1ED760;
     color: #000;
@@ -357,19 +363,19 @@ screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webki
 
     #P1 {
         margin-bottom: -350px;
+        height: 89vh;
     }
     #videotitle {
         position: relative;
         
         top: 0;
         left: 0;
-        width: 100%;
+        width: 95%;
         padding-top: 8em;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
-    }
-    #videotitle h1 {
-        display: none;
-    }
 
     #tracksubtitle {
         padding-left: 5%;
@@ -391,7 +397,7 @@ screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webki
     }
     
     #page-footer {
-        height:;
+        
     }
     
     #footer-wave {

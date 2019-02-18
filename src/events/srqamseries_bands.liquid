@@ -2,11 +2,28 @@
 layout: page-nav.liquid
 title: CØASTLiNE - SRQ Am Series and Music Festival Sponsors
 ---
-<div id="content-wrapper">
-<div style="padding-top:80px;">
+<style>
 
+.hero-container{
+  padding-top: 71px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.hero-img{
+  height: 100vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+</style>
+
+<div class="hero-container">
+<img src="{{ '/img/srqamseries-bands-hero.jpg' | url }}" class="hero-img d-block" alt="SRQ Am Series logo">
+</div>
+
+<div id="content-wrapper" style="padding-top: 1rem">
 <div class="container">
-<h1 class="aileronultralight">BAND&#8203;<b>LiNEUP</b></h1>
 {%- for band in collections.band -%}
   <div class="row">
     <div class="col-md-3">
@@ -39,6 +56,5 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Sponsors
     </div>
   </div>
 {%- endfor -%}
-</div>
 </div>
 </div>

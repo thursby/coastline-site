@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   left: 50%;
   transform: translate(-50%,0);
-  max-width: 200vw;
 }
 
 #schedule li {
@@ -170,6 +169,9 @@ $4 in advance - $5 at the door
 **PLEASE NOTE:** All General Admission purchases are final and can only be refunded within 15 days of the event. 
 
 **Participants:** If for any reason you cannot attend, please make sure to give full notice within 15 days to receive a refund and so we can try to fill your slot with another participant.
+
+## Thanks!
+This event is made possible through the efforts of our uncommonly talented <a href="{{ '/events/srqamseries_staff/' | url }}">staff</a> and through the generous support of our <a href="{{ '/events/srqamseries_sponsors/' | url }}">sponsors</a>.
 
 </div>
 <div class="col-md">
