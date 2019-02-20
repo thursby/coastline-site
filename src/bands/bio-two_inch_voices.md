@@ -5,7 +5,7 @@ tags: band
 posterImg: bio-two_inch_voices.jpg
 date: 2019-02-19
 sitemapIgnore: true
-url_insta: https://www.instagram.com/coastline941/
+url_insta: 
 url_fb: https://www.facebook.com/TwoInchVoices/
 url_twitter:
 url_youtube: 
