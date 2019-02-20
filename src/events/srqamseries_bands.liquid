@@ -4,6 +4,13 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Sponsors
 ---
 <style>
 
+.bandname {
+    font-size: 2rem;
+    font-family: aileronultralight;
+    font-weight: bold;
+    margin-right: .5rem;
+}
+
 .hero-container{
   padding-top: 71px;
   width: 100%;
@@ -48,6 +55,9 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Sponsors
         {% endif %}
         {% if band.data.url_youtube %}
         <a href="{{ band.data.url_youtube }}" target="_blank"><i data-feather="youtube" data-feather-height="32"></i></a>
+        {% endif %}
+        {% if band.data.url_music %}
+        <a href="{{ band.data.url_music }}" target="_blank"><i data-feather="music" data-feather-height="32"></i></a>
         {% endif %}
       </div>
       <div class="row">
