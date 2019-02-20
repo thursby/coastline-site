@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 <div class="col-md">
 
 Participant Registration:<br>
-$12 in advance - $14 at the door
+$12 in advance - $15 at the door
 
 </div>
 <div class="col-md-5">
