@@ -214,7 +214,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 * **6:00pm** - CØASTLINE Starts
 * **6:45pm** - Offset Era Starts
 * **7:30pm** - Perfect Sequence Starts
-* **8:15pm** - 10th Band Starts
+* **8:15pm** - Two Inch Voices Starts
 
 </div>
 </div>
