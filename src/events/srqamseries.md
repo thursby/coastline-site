@@ -198,13 +198,13 @@ We will try to stay on schedule as much as possible, but of course these times a
 
 * **8am-11am** - Registration / Open Skate Warmups
 * **11:00am** - Comp Starts -- Beginner Skate
-* **11:30am** - JawKnee Music Starts
+* **11:30am** - The Rock Box Student Band Start
 * **12:00pm** - Intermediate Skate
 * **12:30pm** - Lesa Silvermore & The Growlers Starts
 * **1:00pm** - Advanced Skate
-* **1:30pm** - 3rd Band Starts
+* **1:30pm** - Fleamarket Politics Starts
 * **2:00pm** - Beginner BMX
-* **2:30pm** - 4th Band Starts
+* **2:30pm** - Monument Beach Starts
 * **3:00pm** - Intermediate BMX
 * **3:30pm** - Neverless Starts
 * **4:00pm** - Advanced BMX
