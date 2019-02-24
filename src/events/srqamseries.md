@@ -200,7 +200,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 * **11:00am** - Comp Starts -- Beginner Skate
 * **11:30am** - JawKnee Music Starts
 * **12:00pm** - Intermediate Skate
-* **12:30pm** - 2nd Band Starts
+* **12:30pm** - Lesa Silvermore & The Growlers Starts
 * **1:00pm** - Advanced Skate
 * **1:30pm** - 3rd Band Starts
 * **2:00pm** - Beginner BMX
