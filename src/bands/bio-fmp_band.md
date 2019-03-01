@@ -1,8 +1,8 @@
 ---
-bandName: Fleamarket Politics
+bandName: FMP Band
 bandWebsite: https://www.facebook.com/fmpband/
 tags: band
-posterImg: bio-fleamarket_politics.jpg
+posterImg: bio-fmp_band.jpg
 date: 2019-02-22
 sitemapIgnore: true
 url_insta: https://www.instagram.com/fmpband/
