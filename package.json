@@ -15,5 +15,8 @@
   "homepage": "https://bitbucket.org/1srq/coastline-site#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1"
+  },
+  "dependencies": {
+    "npx": "^10.2.0"
   }
 }
