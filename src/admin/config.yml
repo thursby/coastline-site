@@ -23,4 +23,3 @@ collections:
       - {label: "FB", name: "url_fb", widget: "string"}
       - {label: "Twitter", name: "url_twitter", widget: "string"}
       - {label: "YouTube", name: "url_youtube", widget: "string"}
-      - {label: "Content", name: "content", widget: "markdown"}
