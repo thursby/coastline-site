@@ -1,22 +1,36 @@
 {
-  "name": "coastline-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.html",
+  "name": "coastline941.com",
+  "version": "1.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "description": "The website for CØASTLINE -- a super rad pop punk band out of Sarasota, Florida.",
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/1srq/coastline-site.git"
+    "url": "https://github.com/thursby/coastline-site"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/1srq/coastline-site#readme",
+  "author": {
+    "name": "Wayne Thursby",
+    "email": "wayne@coastline941.com",
+    "url": "https://waynethursby.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thursby/coastline-site/issues"
+  },
+  "homepage": "https://github.com/thursby/coastline-site",
   "devDependencies": {
-    "@11ty/eleventy": "^0.7.1"
+    "@11ty/eleventy": "^0.7.1",
+    "luxon": "^1.11.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^4.0.0"
   },
   "dependencies": {
-    "npx": "^10.2.0"
+    "clean-css": "^4.2.1",
+    "html-minifier": "^3.5.21",
+    "uglify-es": "^3.3.9"
   }
 }

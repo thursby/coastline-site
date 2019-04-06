@@ -1,0 +1,75 @@
+---
+layout: layouts/home.njk
+title: CØASTLiNE - STRAiGHT OUTTA SARASOTA!
+date: 2019-04-05T00:00:00.000Z
+permalink: /
+navtitle: Home
+tags:
+  - nav
+---
+
+<style>
+.titlelink, .titlelink :hover{
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.titlelink :hover{
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+.desclink, .desclink :hover{
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.desclink :hover{
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+#content-wrapper {
+
+}
+
+</style>
+
+
+<div id="content-wrapper">
+<div id="P1" class="player" style="background: white;" data-property="{
+  videoURL: 'kWMHMN1xU-Y',
+  containment:'self',
+  showControls: false,
+  mute: true,
+  startAt: 0,
+  stopAt: 21,
+  autoPlay: true,
+  loop: true,
+  optimizeDisplay: true,
+  opacity: 1,
+  remember_last_time: false,
+  mask: 'img/dark_vignette.png',
+  showYTLogo:false}">
+</div>
+  <div id="videotitle">
+
+{% set newslist = collections.news %}
+{% for news in newslist | reverse %}
+
+
+    <a class="titlelink" href="{{ news.data.linkurl }}"><div><h1>{{ news.data.title }}</h1>
+    <p>{{ news.data.summary | safe }}</p></div></a>
+    {{ news.templateContent | safe }}
+    
+{% endfor %}
+
+    </div> 
+  </div>
+</div>
+<script>
+  // start the Primary YouTube video
+  $(document).ready(function() {
+      var vidPlayer = jQuery("#P1").YTPlayer();
+  });
+</script>
