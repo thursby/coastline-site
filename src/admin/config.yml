@@ -55,7 +55,6 @@ collections:
       - { label: "Band Name", name: "bandName", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Poster", name: "posterImg", widget: "image", allow_multiple: "false" }
-      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Instagram", name: "url_insta", widget: "text", required: false }
       - { label: "Facebook", name: "url_fb", widget: "text", required: false }
       - { label: "Twitter", name: "url_twitter", widget: "text", required: false }
