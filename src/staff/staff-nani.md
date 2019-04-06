@@ -1,7 +1,7 @@
 ---
-name: Nancy
+name: Nani
 tags: srqamseries_staff
-img: srqamseries_staff-nancy.jpg
+img: srqamseries_staff-nani.jpg
 date: 2019-01-01
 sitemapIgnore: true
 job: Photographer
