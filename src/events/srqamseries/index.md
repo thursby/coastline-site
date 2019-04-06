@@ -136,7 +136,7 @@ $12 in advance - $15 at the door
 
 </div>
 <div class="col-md-5">
-<a class="btn btn-primary btn-lg btn-block" href="{{ '/events/srqamseries_registration/' | url }}">Registration</a>
+<a class="btn btn-primary btn-lg btn-block" href="{{ '/events/srqamseries/registration/' | url }}">Registration</a>
 </div>
 </div>
 
@@ -183,7 +183,7 @@ Are you interested in sponsoring the event or just looking to get more informati
 ## Band Lineup
 Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let us know if your band should be on the list!
 
-{% include srqamseries_registration.liquid %}
+{% include components/srqamseries_registration.njk %}
 
 </div>
 <div id="schedule" class="col-xl">
