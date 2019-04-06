@@ -183,7 +183,7 @@ Are you interested in sponsoring the event or just looking to get more informati
 ## Band Lineup
 Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let us know if your band should be on the list!
 
-{% include components/srqamseries_registration.njk %}
+{% include srqamseries_registration.liquid %}
 
 </div>
 <div id="schedule" class="col-xl">
@@ -193,16 +193,16 @@ Check out the [SRQ Am Lineup]({{ '/events/srqamseries_bands/' | url }}) and let 
 We will try to stay on schedule as much as possible, but of course these times are all approximate. Start times can vary based on the number of participants, so make sure to arrive early for your group.
 
 * **8am-11am** - Registration / Open Skate Warmups
-* **11:00am** - Comp Starts -- Beginner Skate
-* **11:30am** - JawKnee Music Starts
-* **12:00pm** - Intermediate Skate
-* **12:30pm** - 2nd Band Starts
-* **1:00pm** - Advanced Skate
-* **1:30pm** - 3rd Band Starts
+* **11:00am** - Comp Starts -- Beginner Skate/Scoot
+* **11:30am** - The Rock Box Student Band Start
+* **12:00pm** - Intermediate Skate/Scoot
+* **12:30pm** - Lesa Silvermore & The Growlers Starts
+* **1:00pm** - Advanced Skate/Scoot
+* **1:30pm** - Neverless Starts
 * **2:00pm** - Beginner BMX
-* **2:30pm** - 4th Band Starts
+* **2:30pm** - Monument Beach Starts
 * **3:00pm** - Intermediate BMX
-* **3:30pm** - Neverless Starts
+* **3:30pm** - FMP Starts
 * **4:00pm** - Advanced BMX
 * **4:30pm** - Bargain Bin Heroes Starts
 * **5:00pm** - Pro Skateboard and BMX Show Off Session
@@ -210,7 +210,7 @@ We will try to stay on schedule as much as possible, but of course these times a
 * **6:00pm** - CØASTLINE Starts
 * **6:45pm** - Offset Era Starts
 * **7:30pm** - Perfect Sequence Starts
-* **8:15pm** - 10th Band Starts
+* **8:15pm** - Two Inch Voices Starts
 
 </div>
 </div>
@@ -255,5 +255,4 @@ We will try to stay on schedule as much as possible, but of course these times a
 
 </div>
 
-</div>
 </div>
