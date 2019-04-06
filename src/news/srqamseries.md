@@ -1,8 +1,9 @@
 ---
 title: SRQ AM SERiES AND MUSiC FESTIVAL
-linkurl: http://localhost:8080/events/srqamseries/
-summary: We are so incredibly proud to announce we will be hosting our first music festival.
-date: 2016-01-01
+date: 2019-03-07T00:00:00.000Z
+summary: >-
+  We are so incredibly proud to announce we will be hosting our first music
+  festival.
 tags:
   - news
 ---
