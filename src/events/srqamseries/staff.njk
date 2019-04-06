@@ -25,11 +25,11 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Staff
 <h1 class="aileronultralight">GRACiOUS&#8203;<b>STAFF</b></h1>
   <div class="row">
 
-{# {%- for staff in collections.srqamseries_staff -%}
+{%- for staff in collections.srqamseries_staff -%}
     <div class="col-md-4">
     
     <div class="card border-light" style="width: 18rem;">
-      <img class="card-img-top rounded-circle" src="{{ '/img/' | append: staff.data.img | url }}" alt="{{ staff.data.name }} staff Photo">
+      <img class="card-img-top rounded-circle" src="{{ '/img/' + staff.data.img | url }}" alt="{{ staff.data.name }} staff Photo">
       <div class="card-body">
         {% if staff.data.url_website %}
         <a href="{{ staff.data.url_website }}" target="_blank"><h5 class="card-title" style="display: inline;">{{ staff.data.name }}</h5></a>
@@ -52,15 +52,11 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Staff
 
         <h6>{{ staff.data.job }}</h6>
         <p class="quotation-mark">“</p>
-        {{ staff.templateContent }}
+        {{ staff.templateContent | safe }}
       </div>
     </div>
-    {% assign val = forloop.index | modulo: 3 %}
-    {% if val == 0 %}
-    </div><div class="col-md-4">
-    {% endif %}
     </div>
-{%- endfor -%} #}
+{%- endfor -%}
 
   </div>
 

@@ -31,11 +31,11 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Sponsors
 <div id="content-wrapper" style="padding-top: 1rem">
 <div class="container">
 
-{# 
+
 {%- for band in collections.band -%}
   <div class="row">
     <div class="col-md-3">
-      <img class="img-fluid" src="{{ '/img/' | append: band.data.posterImg | url }}" alt="{{ band.data.bandName }} Band Photo">
+      <img class="img-fluid" src="{{ '/img/' + band.data.posterImg | url }}" alt="{{ band.data.bandName }} Band Photo">
     </div>
     <div class="col-md-9">
       <div class="row align-items-center">
@@ -62,11 +62,11 @@ title: CØASTLiNE - SRQ Am Series and Music Festival Sponsors
         {% endif %}
       </div>
       <div class="row">
-        {{ band.templateContent }}
+        {{ band.templateContent | safe}}
       </div>
     </div>
   </div>
-{%- endfor -%} #}
+{%- endfor -%}
 
 </div>
 </div>
