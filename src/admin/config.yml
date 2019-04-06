@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: thursby/coastline-site
   branch: testing # Branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts
