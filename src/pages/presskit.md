@@ -8,6 +8,18 @@ tags:
   - nav
 ---
 
+<link href="/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+
+<style>
+.nGY2 .nGY2GThumbnail {
+  background-color: transparent;
+}
+
+.nGY2 .nGY2GThumbnailImage {
+    border: 7px solid #222;
+}
+</style>
+
 <div id="content-wrapper" style="padding-left: 1em; padding-top: 80px">
   <div>
     <h1 class="aileronultralight">DEViL&#8203;<b>WiTH&#8203;</b>THE&#8203;<b>CRØWN</b></h1>
@@ -18,13 +30,80 @@ tags:
       <iframe height="300" width="100%" src="https://play.soundsgood.co/embed/5b82bd372494bee13b6bc86d?color=#67a58c&hideCurator=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
     </div>
   </div>
+    <!-- Gallery -->
+  <h1 class="aileronultralight">RANDOM&#8203;<b>PiCS</b></h1>
+<div ID="band_gallery" data-nanogallery2='{ 
+    "itemsBaseURL": "/img/bandpics_gallery/",
+    "thumbnailWidth": "auto",
+    "thumbnailLabel": {
+        "display": "false"},
+    "thumbnailBorderVertical": 4,
+    "thumbnailBorderHorizontal": 4,
+    "colorScheme": {
+      "thumbnail": {
+        "background": "rgba(255,255,255,1)",
+        "borderColor": "rgba(0,0,0,1)"
+      }
+    },
+    "viewerToolbar":   {
+       "standard": ""
+    },
+    "thumbnailDisplayTransition": "scaleUp_.5_easeOutCirc",
+    "thumbnailDisplayTransitionDuration": 500,  
+    "thumbnailDisplayInterval": 50,
+    "thumbnailHoverEffect2": "scale120|labelAppear75",
+    "galleryDisplayMode": "pagination",
+    "gallerySorting": "random",
+    "galleryMaxRows": 2,
+    "galleryLastRowFull": true,
+    "thumbnailAlignment": "center",
+    "thumbnailGutterWidth": 4,
+    "thumbnailGutterHeight": 4
+  }'>
+<a href="bandpics_np_239prsf_-119.jpg" data-ngthumb="bandpics_np_239prsf_-119t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_239prsf_-121.jpg" data-ngthumb="bandpics_np_239prsf_-121t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_239prsf_-132.jpg" data-ngthumb="bandpics_np_239prsf_-132t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_239prsf_-135.jpg" data-ngthumb="bandpics_np_239prsf_-135t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_239prsf_-141.jpg" data-ngthumb="bandpics_np_239prsf_-141t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180817_bp-106.jpg" data-ngthumb="bandpics_np_cl_20180817_bp-106t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180817_bp-110.jpg" data-ngthumb="bandpics_np_cl_20180817_bp-110t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180817_bp-117.jpg" data-ngthumb="bandpics_np_cl_20180817_bp-117t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180826_dwc-133.jpg" data-ngthumb="bandpics_np_cl_20180826_dwc-133t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180831_ep-104.jpg" data-ngthumb="bandpics_np_cl_20180831_ep-104t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180831_ep-108.jpg" data-ngthumb="bandpics_np_cl_20180831_ep-108t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180831_ep-120.jpg" data-ngthumb="bandpics_np_cl_20180831_ep-120t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_20180831_ep-133.jpg" data-ngthumb="bandpics_np_cl_20180831_ep-133t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-118.jpg" data-ngthumb="bandpics_np_cl_dwc-118t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-126.jpg" data-ngthumb="bandpics_np_cl_dwc-126t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-138.jpg" data-ngthumb="bandpics_np_cl_dwc-138t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-149.jpg" data-ngthumb="bandpics_np_cl_dwc-149t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-153.jpg" data-ngthumb="bandpics_np_cl_dwc-153t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-178.jpg" data-ngthumb="bandpics_np_cl_dwc-178t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwc-188.jpg" data-ngthumb="bandpics_np_cl_dwc-188t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwtc-110.jpg" data-ngthumb="bandpics_np_cl_dwtc-110t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwtc-118.jpg" data-ngthumb="bandpics_np_cl_dwtc-118t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwtc-133.jpg" data-ngthumb="bandpics_np_cl_dwtc-133t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwtc-142.jpg" data-ngthumb="bandpics_np_cl_dwtc-142t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl_dwtc-162.jpg" data-ngthumb="bandpics_np_cl_dwtc-162t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl-100.jpg" data-ngthumb="bandpics_np_cl-100t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl-102.jpg" data-ngthumb="bandpics_np_cl-102t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_cl-127.jpg" data-ngthumb="bandpics_np_cl-127t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_clbp_20180614-110.jpg" data-ngthumb="bandpics_np_clbp_20180614-110t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_clbp_20180614-115.jpg" data-ngthumb="bandpics_np_clbp_20180614-115t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_clbp_20180614-122.jpg" data-ngthumb="bandpics_np_clbp_20180614-122t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_clbp_20180614-127.jpg" data-ngthumb="bandpics_np_clbp_20180614-127t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_clbp_20180614-130.jpg" data-ngthumb="bandpics_np_clbp_20180614-130t.jpg" data-ngdesc="Coastline Band Photo"></a>
+<a href="bandpics_np_clbp_20180614-139.jpg" data-ngthumb="bandpics_np_clbp_20180614-139t.jpg" data-ngdesc="Coastline Band Photo"></a>
+</div>
+
   <div>
-    <h1 class="aileronultralight">BAND&#8203;<b>BIOGRAPHY</b></h1>
+    <h1 class="aileronultralight">BAND&#8203;<b>BiOGRAPHY</b></h1>
     <p class="lato">
       <b>CØASTLINE</b> is a pop punk band based in the Sarasota area. Forming just over a year ago,
       the band has released a single and is currently hard at work producing their first EP.
     </p>
   </div>
+  <!-- Band Member Bios -->
   <div class="container">
     <div class="row">
       <div class="col-6 col-md-4">
@@ -78,7 +157,7 @@ tags:
         <h3>Keith (KJ)</h3>
         <h4>Lead Guitar</h4>
         <p class="lato">
-          Like Father, like son. “My Dad played, and guitars were always around the house growing up.” It might have also helped that he was born in New Orleans, the birthplace of jazz. Which also explains why he’s a die hard Saints fan -- Geaux Saints!        
+          Like Father, like son. “My Dad played, and guitars were always around the house growing up.” It might have also helped that he was born in New Orleans, the birthplace of jazz. Which also explains why he’s a die hard Saints fan -- Geaux Saints!     
         </p>
         <p class="lato">
           The biggest influencer in Keith’s life was his Dad, passing along his passions and values. As the years rolled on, other artists were an inspiration, including Kurt Cobain and Billie Joe Armstrong. You can hear, and see, traces of all of them throughout his lyrical riffs and in his technique. 
@@ -117,3 +196,4 @@ tags:
     </div>
   </div>
 </div>
+<script type="text/javascript" src="/js/jquery.nanogallery2.min.js"></script>
