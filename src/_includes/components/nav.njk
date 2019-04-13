@@ -1,0 +1,75 @@
+<nav id="navmain" class="navbar navbar-expand-lg navbar-light">
+<div id="header-wave" class="text-right">
+  <svg preserveAspectRatio="none" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none">
+      <path d="M1000 27.588v-27.588h-1000v78.709c185.603-24.327 313.804-36.323 384.603-35.986 106.432.506 167.531 21.933 236.417 21.933s183.312-50.088 254.721-55.62c47.265-3.661 88.685 2.523 124.26 18.552z" fill="#fff"></path>
+      <path d="M-1.23 87.791c171.627-34.447 300.773-52.658 387.438-54.634 129.998-2.964 166.902 40.422 235.909 40.422s175.29-63.463 246.825-68.994c47.69-3.687 91.633 10.063 131.828 41.25" stroke="#50E3C2" stroke-width="1.5px" vector-effect="non-scaling-stroke"></path>
+    </g>
+  </svg>
+</div>
+  <a id="main-title" class="navbar-brand" href="{{ '/' | url }}">CØASTLiNE</a>
+  <script>
+  function togglebg() {
+    var element = document.getElementById("navmain");
+    if (element.classList.contains("whitebg")) {
+      setTimeout(function () {
+        element.classList.toggle("whitebg");
+      }, 250);
+    }
+    else {
+      element.classList.toggle("whitebg");
+    }
+  }
+  </script>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="togglebg();">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/coastline941/"><i class="navicon" data-feather="instagram" data-feather-height="32"></i>
+        <span class="d-md-none d-lg-none d-xl-none">Instagram</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com/pg/COASTLINE.FL/"><i class="navicon" data-feather="facebook"></i>
+        <span class="d-md-none d-lg-none d-xl-none">Facebook</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/channel/UCxT9hjjlhmdm84h5ce2LqrQ"><i class="navicon" data-feather="youtube"></i>
+        <span class="d-md-none d-lg-none d-xl-none">YouTube</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <div id="gradientblock">
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="btn navbar-right-btn nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        SRQ Am Fest
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item btn navbar-sub-btn nav-link" href="{{ '/events/srqamseries/' | url }}">Info</a>
+          <a class="dropdown-item btn navbar-sub-btn nav-link" href="{{ '/events/srqamseries/registration/' | url }}">Register</a>
+          <a class="dropdown-item btn navbar-sub-btn nav-link" href="{{ '/events/srqamseries/bands/' | url }}">Band Lineup</a>
+          <a class="dropdown-item btn navbar-sub-btn nav-link" href="{{ '/events/srqamseries/sponsors/' | url }}">Sponsors</a>
+          <a class="dropdown-item btn navbar-sub-btn nav-link" href="{{ '/events/srqamseries/staff/' | url }}">Staff</a>
+          <a class="dropdown-item btn navbar-sub-btn nav-link" href="https://coastline-band-llc.weebly.com/" target="_blank">Buy Now</a>
+        </div>
+      </li>
+      <li>
+        <a class="btn navbar-right-btn" href="{{ '/presskit/' | url }}" role="button">
+        PressKit
+        </a>
+      </li>
+      <li>
+        <a class="btn navbar-right-btn" href="https://www.etsy.com/shop/COASTLINE941" target="_blank" role="button">
+        Shop
+        </a>                
+      </li>
+    </ul>
+  </div>
+</nav>

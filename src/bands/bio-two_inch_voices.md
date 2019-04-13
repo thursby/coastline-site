@@ -11,5 +11,4 @@ url_twitter:
 url_youtube: 
 url_music: https://open.spotify.com/artist/3GNpw4hfo5p1mcaKulsa3w
 ---
-**Two Inch Voices** is a Rock/Alternative Metal band from Sarasota, Florida formed in 2007.
-Their sound is a mixture of driving guitars, swooning, aggressive, melodic vocals, and brick wall rhythms.
+**Two Inch Voices** is a Rock/Alternative Metal band from Sarasota, Florida formed in 2007. Their sound is a mixture of driving guitars, swooning, aggressive, melodic vocals, and brick wall rhythms.

@@ -10,6 +10,5 @@ url_fb: https://www.facebook.com/pg/COASTLINE.FL/
 url_twitter:
 url_youtube: https://www.youtube.com/channel/UCxT9hjjlhmdm84h5ce2LqrQ
 ---
-**CØASTLINE** is a pop punk band based in the Sarasota area. Forming just over a year ago,
-the band has released a single and is currently hard at work producing their first EP.
+**CØASTLINE** is a pop punk band based in the Sarasota area. Forming just over a year ago, the band has released a single and is currently hard at work producing their first EP.
 

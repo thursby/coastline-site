@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ title or metadata.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <meta name="description" content="{{description}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="google" content="notranslate">
+  
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="{{ '/css/normalize.css' | url }}">
+
+  <link href="{{ '/css/jquery.mb.YTPlayer.min.css' | url }}" media="all" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | url }}">
+
+  {% set css %}
+    {# {% include "assets/css/inline.css" %} #}
+    {% include "assets/css/main.css" %}
+    {% include "assets/css/style.css" %}
+  {% endset %}
+  <style>
+  @font-face {
+    font-family: 'aileronultralight';
+    src: url('/fonts/Aileron-UltraLight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  {{ css | cssmin | safe }}</style>
+ 
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  <script src="{{ '/js/feather-icons.js' | url }}"></script>
+  <script src="{{ '/js/jquery-3.2.1.min.js' | url }}"></script>
+  <script>
+  var trackOutboundLink = function(url) {
+     ga('send', 'event', 'outbound', 'click', url, {
+       'transport': 'beacon',
+       'hitCallback': function(){document.location = url;}
+     });
+  }
+  </script>
+  {% set js %}
+    {% include "assets/js/inline.js" %}
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
+</head>

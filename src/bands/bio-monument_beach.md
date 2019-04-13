@@ -11,5 +11,4 @@ url_twitter:
 url_youtube: https://www.youtube.com/watch?v=jD6HhWMrOME
 url_music: https://open.spotify.com/album/42Oabzy6bd7gUChFctMkZt
 ---
-**Monument Beach**, formerly known as Help! Police!, is a Tampa based ska punk 
-band created in 2015 by friends and veterans of the Florida ska scene.
+**Monument Beach**, formerly known as Help! Police!, is a Tampa based ska punk band created in 2015 by friends and veterans of the Florida ska scene.

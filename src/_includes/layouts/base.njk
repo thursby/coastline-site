@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+{% include "components/head.njk" %}
+
+<body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124851806-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124851806-1');
+</script>
+
+
+<!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div id="wrapper" style="z-index:10">
+
+		<header>
+			{% include "components/nav.njk" %}
+		</header>
+
+{{ layoutContent | safe }}
+
+</div>  <!-- end wrapper -->
+
+<script src="{{ '/js/modernizr-3.6.0.min.js' | url }}"></script>
+<script src="{{ '/js/bootstrap.min.js' | url }}"></script>
+<script src="{{ '/js/jquery.mb.YTPlayer.js' | url }}"></script>
+
+<script>
+    // replace icons using Feather
+    feather.replace()
+</script>
+
+		{% include "components/footer.njk" %}
+
+</body>
+</html>
