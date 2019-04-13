@@ -26,7 +26,12 @@ body {
     padding-bottom: 1em;
 }
 
+.whitebg {
+    background-color: white !important;
+}
+
 #navmain {
+    transition: background-color 0.1s;
     list-style-type: none;
     position: fixed;
     width: 100%;
@@ -34,7 +39,7 @@ body {
     margin: 0;
     padding: 0;
     /*overflow: hidden;*/
-    background: transparent !important;
+    background: transparent;
     /* background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24em, rgba(255,255,255,0.2) 28em, rgba(255,255,255,0.2) 75%) !important;
     background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 24em,rgba(255,255,255,0.2) 28em,rgba(255,255,255,0.2) 75%) !important;
     background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 24em,rgba(255,255,255,0.2) 28em,rgba(255,255,255,0.2) 75%) !important; */
@@ -395,10 +400,6 @@ screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webki
         padding-left: 3px;
         padding-right: 3px;
     }
-    
-    #navmain {
-        /* background: white !important; */
-    }
 
     .navbar-toggler {
         background: #fff;
@@ -414,7 +415,7 @@ screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webki
         top: 0;
         left: 0;
         width: 95%;
-        padding-top: 8em;
+        margin-top: 3rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
