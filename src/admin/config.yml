@@ -44,9 +44,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "YouTube ID", name: "youtube_id", widget: "text" }
-      - { label: "YouTube Start At", name: "youtube_start_at", widget: "number", valueType: "int", default: 0 }
-      - { label: "YouTube Stop At", name: "youtube_stop_at", widget: "number", valueType: "int", default: 0 }
+      - { label: "YouTube ID", name: "youtube_id", widget: "text", hint: "Just the YouTube ID, not the full URL." }
+      - { label: "YouTube Start At", name: "youtube_start_at", widget: "number", valueType: "int", default: 0, hint: "The number of seconds into the video to start." }
+      - { label: "YouTube Stop At", name: "youtube_stop_at", widget: "number", valueType: "int", default: 0, hint: "The number of seconds from the beginning of the video to stop." }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "bands" # Used in routes, e.g., /admin/collections/blog
