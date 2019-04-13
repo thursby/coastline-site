@@ -33,6 +33,30 @@ tags:
 
 }
 
+
+
+#video_credit {
+    position: absolute;
+    overflow: hidden;
+    top: 55%;
+    left: 0;
+    width: auto;
+    color: white;
+    font-family: 'aileronultralight', sans-serif;
+    padding: .5rem;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 6px;
+}
+
+@media (max-width: 992px), /* If smaller than 992px */
+screen and (aspect-ratio: 4/3), /* Or is 4:3 ratio (iPad) */
+/* Or is an iPad Pro */
+screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { 
+
+    #video_credit {
+display: none;
+    }
+}
 </style>
 
 
@@ -52,6 +76,9 @@ tags:
 {% endfor %}
 
     </div> 
+  <div id="video_credit"><a href="https://www.lifetreeentertainment.com/?utm_source=coastline941&utm_medium=page&utm_campaign=home_link" target="_blank">
+  <img src="/img/video_credit-lifetree_entertainment-logo.png"></a>
+  </div>
   </div>
 </div>
 <script>
