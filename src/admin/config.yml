@@ -35,6 +35,7 @@ collections:
       - { label: "Navigation Title", name: "navtitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
       - { label: "Body", name: "body", widget: "markdown" }
+  # News items, things displayed on the home page
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "News" # Used in the UI
     folder: "src/news" # The path to the folder where the documents are stored
@@ -44,24 +45,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "YouTube ID", name: "youtube_id", widget: "text", hint: "Just the YouTube ID, not the full URL." }
+      - { label: "YouTube ID", name: "youtube_id", widget: "string", hint: "Just the YouTube ID, not the full URL." }
       - { label: "YouTube Start At", name: "youtube_start_at", widget: "number", valueType: "int", default: 0, hint: "The number of seconds into the video to start." }
       - { label: "YouTube Stop At", name: "youtube_stop_at", widget: "number", valueType: "int", default: 0, hint: "The number of seconds from the beginning of the video to stop." }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "bands" # Used in routes, e.g., /admin/collections/blog
-    identifier_field: "bandName"
-    label: "Bands" # Used in the UI
-    folder: "src/bands" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Band Name", name: "bandName", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Poster", name: "posterImg", widget: "image", allow_multiple: "false" }
-      - { label: "Instagram", name: "url_insta", widget: "text", required: false }
-      - { label: "Facebook", name: "url_fb", widget: "text", required: false }
-      - { label: "Twitter", name: "url_twitter", widget: "text", required: false }
-      - { label: "YouTube", name: "url_youtube", widget: "text", required: false }
-      - { label: "Tags", name: "tags", widget: "list", default: ["band"] }
-      - { label: "Body", name: "body", widget: "markdown" }      
+ 
