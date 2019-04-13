@@ -3,6 +3,9 @@ title: DEViL WiTH THE CRØWN
 linkurl: https://coastline941.com/presskit/
 summary: The first single off our upcoming EP is out now, and we just wrapped shooting the video. Check out the track!
 date: 2015-01-01
+youtube_id: kWMHMN1xU-Y
+youtube_start_at: 0
+youtube_stop_at: 21
 tags:
   - news
 ---

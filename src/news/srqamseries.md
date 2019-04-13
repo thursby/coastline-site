@@ -2,6 +2,9 @@
 title: SRQ AM SERiES AND MUSiC FESTIVAL
 linkurl: https://coastline941.com/events/srqamseries/
 summary: We are so incredibly proud to announce we will be hosting our first music festival.
+youtube_id: AaahGdC6Gn4
+youtube_start_at: 0
+youtube_stop_at: 30
 date: 2016-01-01
 tags:
   - news

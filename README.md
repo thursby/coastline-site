@@ -25,7 +25,6 @@ npm install
 Run the generator with `npx`.
 ```
 npx eleventy
-
 ```
 
 This uses [Eleventy](https://www.11ty.io/) to turn the source files in `/src/` into a website.

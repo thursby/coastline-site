@@ -37,39 +37,47 @@ tags:
 
 
 <div id="content-wrapper">
-<div id="P1" class="player" style="background: white;" data-property="{
-  videoURL: 'kWMHMN1xU-Y',
-  containment:'self',
-  showControls: false,
-  mute: true,
-  startAt: 0,
-  stopAt: 21,
-  autoPlay: true,
-  loop: true,
-  optimizeDisplay: true,
-  opacity: 1,
-  remember_last_time: false,
-  mask: 'img/dark_vignette.png',
-  showYTLogo:false}">
+<div id="P1" class="player" style="background: white; pointer-events: none;" onclick='return false;'>
 </div>
   <div id="videotitle">
 
 {% set newslist = collections.news %}
 {% for news in newslist | reverse %}
 
-
+  <div class="newsitem">
     <a class="titlelink" href="{{ news.data.linkurl }}"><div><h1>{{ news.data.title }}</h1>
     <p>{{ news.data.summary | safe }}</p></div></a>
     {{ news.templateContent | safe }}
-    
+  </div>  
 {% endfor %}
 
     </div> 
   </div>
 </div>
 <script>
+  var videos = [
+  {% for news in newslist | reverse %}
+      {% if news.data.youtube_id %}
+      { videoURL: '{{news.data.youtube_id}}',
+        containment:'self',
+        showControls: false,
+        mute: true,
+        startAt: {{news.data.youtube_start_at}},
+        stopAt: {{news.data.youtube_stop_at}},
+        autoPlay: true,
+        loop: false,
+        optimizeDisplay: true,
+        opacity: 1,
+        remember_last_time: false,
+        mask: 'img/dark_vignette.png',
+        showYTLogo:false,
+        stopMovieOnBlur:false
+      },
+      {% endif %}
+{% endfor %}
+  ];
   // start the Primary YouTube video
   $(document).ready(function() {
-      var vidPlayer = jQuery("#P1").YTPlayer();
+      var vidPlayer = jQuery("#P1").YTPlaylist(videos, false);
   });
 </script>
