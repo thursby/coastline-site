@@ -1,9 +1,16 @@
+:root {
+    --wave-color-1: rgba(103,165,140,0.8); 
+    --wave-color-2: rgba(80,227,194,0.4); 
+    --wave-color-3: rgba(0,128,128,0.4); 
+  }
+
 body {
     border: none;
     margin: 0;
     background: #fff;
     color: #000;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    height: 100vh;
 }
 
 /* Navbar  */
@@ -103,10 +110,52 @@ body {
 }
 
 #page-footer {
-    background-color: #fff;
-    /*position: fixed;*/
+    position: fixed;
     bottom: 0;
+    left: 0;
+    background-color: transparent;
     width: 100%;
+    height: 100px;
+  }
+
+#footer-wave,
+#footer-wave::before,
+#footer-wave::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250vw;
+  height: 250vw;
+  margin-left: -125vw;
+  transform-origin: 50% 50%;
+  background-color: var(--wave-color-1);
+  border-radius: 38% 42%;
+  animation: spin 26s infinite linear;
+}
+
+#footer-wave::before {
+  width: 105%;
+  height: 95%;
+  margin-top: -125vw;
+  transform-origin: 49% 51%;
+  border-radius: 40% 38%;
+  background-color: var(--wave-color-2);
+  animation: spin 23s infinite linear;
+}
+
+#footer-wave::after {
+  width: 102%;
+  height: 98%;
+  margin-top: -125vw;
+  transform-origin: 51% 49%;
+  border-radius: 48% 42%;
+  background-color: var(--wave-color-3);
+  animation: spin 20s infinite linear;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
 }
 
 /* The rightmost buttons */
