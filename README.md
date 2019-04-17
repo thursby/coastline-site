@@ -12,11 +12,12 @@ Oh, yes! The website!
 * NPM
 * Eleventy (via NPM)
 
-# Compiling the static site using Eleventy
+# Generating the static site using Eleventy
 First, install Node and NPM for your platform. Google can help if you're lost here.
 
 Then install `nvm`, set it to Node version 8, install `npx`, followed by project dependencies.
-```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 nvm use 8
 npm install npx
 npm install
@@ -29,12 +30,13 @@ npx eleventy
 
 This uses [Eleventy](https://www.11ty.io/) to turn the source files in `/src/` into a website.
 
-Then the resulting site is in `/dist/`.
+Then the resulting website is in `_site`.
 
-For development you can have it "watch" a directory for changes.
+For development you can have it run a local server.
 ```
-npx eleventy --pathprefix="coastline-site/dist" --watch
+npx eleventy --serve
 ```
 
 ## Updates
-Added the [SRQ Am Series](https://coastline941.com/events/srqamseries/) page!
+- Added the [SRQ Am Series](https://coastline941.com/events/srqamseries/) page!
+
