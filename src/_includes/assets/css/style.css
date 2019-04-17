@@ -436,7 +436,7 @@ screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webki
     }
     
     #header-wave {
-        border-top: 1rem solid #fff !important;
+        border-top: 2rem solid #fff !important;
     }
     
     #footer-wave {
