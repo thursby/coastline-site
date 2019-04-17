@@ -44,14 +44,6 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
-  // Add content from /src/posts/ to the "posts" collection
-  eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/src\/posts\//) !== null;
-    });
-  });
-
-
   // Add content from /src/news/ to the "news" collection
   eleventyConfig.addCollection("news", function(collection) {
     return collection.getAllSorted().filter(function(item) {

@@ -10,19 +10,7 @@ media_folder: "src/img" # Media files will be stored in the repo under
 public_folder: "/img"
 
 collections:
-  # Our blog posts
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
-    folder: "src/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Body", name: "body", widget: "markdown" }
-  # Our pages e.g. About
+  # Our pages e.g. Home
   - name: "pages"
     label: "Page"
     folder: "src/pages"
