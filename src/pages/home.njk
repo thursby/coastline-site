@@ -88,7 +88,7 @@ display: none;
   {% for news in newslist | reverse %}
       {% if news.data.youtube_id %}
       { videoURL: '{{news.data.youtube_id}}',
-        containment:'body',
+        containment:'self',
         showControls: false,
         mute: true,
         startAt: {{news.data.youtube_start_at}},
