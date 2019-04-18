@@ -32,7 +32,9 @@ tags:
 #content-wrapper {
 
 }
-
+.html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-interrupting, .html5-video-player.ended-mode, .html5-video-player.ytp-fullscreen {
+  background-color: #fff !important;
+}
 
 
 #video_credit {
@@ -86,7 +88,7 @@ display: none;
   {% for news in newslist | reverse %}
       {% if news.data.youtube_id %}
       { videoURL: '{{news.data.youtube_id}}',
-        containment:'self',
+        containment:'body',
         showControls: false,
         mute: true,
         startAt: {{news.data.youtube_start_at}},

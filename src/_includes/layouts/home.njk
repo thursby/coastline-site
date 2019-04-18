@@ -2,5 +2,38 @@
 layout: layouts/base.njk
 section: home
 ---
+<style>
 
+
+/* Styling for the footer */
+
+#footer-list {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#footer-list a, #footer-list li{
+    color: white;
+}
+
+#footer-list a:hover {
+    background-color: transparent;
+}
+
+#footer-list ul {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+
+#page-footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
 {{ layoutContent | safe }}

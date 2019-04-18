@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
 {% include "components/head.njk" %}
 
 <body>
@@ -13,31 +14,26 @@
   gtag('config', 'UA-124851806-1');
 </script>
 
-
 <!--[if lte IE 9]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<div id="wrapper" style="z-index:10">
+{% include "components/nav.njk" %}
 
-		<header>
-			{% include "components/nav.njk" %}
-		</header>
+<div id="wrapper" style="z-index:10">
 
 {{ layoutContent | safe }}
 
-</div>  <!-- end wrapper -->
+</div>
+
+{% include "components/footer.njk" %}
 
 <script src="{{ '/js/modernizr-3.6.0.min.js' | url }}"></script>
 <script src="{{ '/js/bootstrap.min.js' | url }}"></script>
 <script src="{{ '/js/jquery.mb.YTPlayer.js' | url }}"></script>
 
 <script>
-    // replace icons using Feather
     feather.replace()
 </script>
-
-		{% include "components/footer.njk" %}
-
 </body>
 </html>

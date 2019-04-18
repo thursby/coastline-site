@@ -70,7 +70,9 @@ body {
 /* Styling for the footer */
 
 #footer-list {
-    margin-top: -4rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 #footer-list a, #footer-list li{
@@ -104,7 +106,7 @@ body {
 
 #page-footer {
     background-color: #fff;
-    /*position: fixed;*/
+    position: relative;
     bottom: 0;
     width: 100%;
 }

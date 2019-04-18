@@ -1,3 +1,17 @@
+<script>
+function togglebg() {
+  var element = document.getElementById("navmain");
+  if (element.classList.contains("whitebg")) {
+    setTimeout(function () {
+      element.classList.toggle("whitebg");
+    }, 250);
+  }
+  else {
+    element.classList.toggle("whitebg");
+  }
+}
+</script>
+
 <nav id="navmain" class="navbar navbar-expand-lg navbar-light">
 <div id="header-wave" class="text-right">
   <svg preserveAspectRatio="none" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
@@ -8,19 +22,6 @@
   </svg>
 </div>
   <a id="main-title" class="navbar-brand" href="{{ '/' | url }}">CØASTLiNE</a>
-  <script>
-  function togglebg() {
-    var element = document.getElementById("navmain");
-    if (element.classList.contains("whitebg")) {
-      setTimeout(function () {
-        element.classList.toggle("whitebg");
-      }, 250);
-    }
-    else {
-      element.classList.toggle("whitebg");
-    }
-  }
-  </script>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="togglebg();">
   <span class="navbar-toggler-icon"></span>
   </button>
