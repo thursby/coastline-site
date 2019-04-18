@@ -407,12 +407,12 @@ screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webki
         height: 89vh;
     }
     #videotitle {
-        position: relative;
+      position: relative;
         
         top: 0;
         left: 0;
         width: 95%;
-        margin-top: 3rem;
+  
         margin-left: 1rem;
         margin-right: 1rem;
     }
