@@ -18,6 +18,11 @@ tags:
 .nGY2 .nGY2GThumbnailImage {
     border: 7px solid #222;
 }
+
+#musicplayer {
+  display: table-row;
+  width: 100%;
+}
 </style>
 
 <div id="content-wrapper" style="padding-left: 1em; padding-top: 80px">
