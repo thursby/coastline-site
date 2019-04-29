@@ -31,6 +31,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link URL", name: "linkurl", widget: "string" }      
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "YouTube ID", name: "youtube_id", widget: "string", hint: "Just the YouTube ID, not the full URL." }
