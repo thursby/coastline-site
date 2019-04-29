@@ -6,7 +6,7 @@ summary: >-
   Join us May 4th for a full day of beer, music, and good vibes! A special
   to-be-announced bottle release will kick off the day leading into music
   starting at 2pm. No cover for music.
-youtube_id: '#'
+youtube_id: 
 youtube_start_at: 0
 youtube_stop_at: 0
 tags:
